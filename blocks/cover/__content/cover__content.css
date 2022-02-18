@@ -1,0 +1,8 @@
+.cover__content {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #FFFFFF;
+    z-index: 1;
+}

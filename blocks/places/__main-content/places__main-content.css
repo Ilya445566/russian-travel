@@ -1,0 +1,9 @@
+.places__main-content {
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width: 320px) {
+    .places__main-content {
+        flex-direction: column;
+   }
+}
