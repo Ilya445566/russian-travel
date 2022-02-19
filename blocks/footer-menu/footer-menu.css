@@ -1,0 +1,16 @@
+.footer-menu {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: normal;
+    gap: 18px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+@media screen and (max-width: 320px) {
+    .footer-menu {
+        flex-direction: column;
+        max-width: 100%;
+   }
+}
