@@ -1,0 +1,32 @@
+.intro__list {
+    max-width: 100%;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+    align-content: left;
+    text-align: left;
+    margin: 33px 0 0 0;
+    padding: 0;
+    font-family: "Inter", Arial, Helvetica;
+}
+@media screen and (max-width: 768px) {
+    .intro__list {
+        max-width: 720px;
+   }
+}
+
+@media screen and (max-width: 720px) {
+    .intro__list {
+        max-width: 94vw;
+   }
+}
+
+@media screen and (max-width: 320px) {
+    .intro__list {
+        max-width: 90vw;
+        margin-top: 34px;
+   }
+}

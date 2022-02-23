@@ -1,0 +1,35 @@
+.places__text {
+    display: flex;
+    flex-direction: column;
+    max-width: 484px;
+    box-sizing: border-box;
+    color: white;
+}
+@media screen and (max-width: 1024px){
+    .places__text {
+        max-width: 49vw;
+        margin-left: 32px;
+   }
+}
+@media screen and (max-width: 768px) {
+    .places__text {
+        max-width: 352px;
+        margin-left: 28px;
+   }
+}
+
+@media screen and (max-width: 720px) {
+    .places__text {
+        margin-left: 0px;
+        margin-top: 32px;
+   }
+}
+
+@media screen and (max-width: 320px) {
+    .places__text {
+        max-width: 288px;
+        margin: auto;
+        margin-top: 32px;
+        margin-bottom: 0;
+   }
+}
