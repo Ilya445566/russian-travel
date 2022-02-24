@@ -8,3 +8,12 @@
         margin-top: 50px;
    }
 }
+
+@media screen and (max-width: 320px) {
+    .cover__text {
+        margin: auto 16px;
+        max-width: 288px;
+        padding: 0;
+        text-align: center;
+   }
+}
