@@ -12,7 +12,6 @@
 
 @media screen and (max-width: 320px) {
     .places__info {
-        flex-direction: column;
         width: 100%;
         margin: 0 auto 32px;
    }
