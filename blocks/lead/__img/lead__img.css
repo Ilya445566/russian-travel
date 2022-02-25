@@ -1,0 +1,9 @@
+.lead__img {
+    max-width: 100%;
+}
+
+@media screen and (max-width: 420px){
+    .lead__img {
+        max-width: 99%;
+   }
+}
