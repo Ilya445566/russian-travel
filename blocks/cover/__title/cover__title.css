@@ -9,7 +9,7 @@
     text-align: center;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 525px) {
     .cover__title {
         max-width: 72vw;
         font-size: 32px;
@@ -18,7 +18,7 @@
 }
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 420px) {
     .cover__title {
         font-family: Inter;
         font-size: 32px;
