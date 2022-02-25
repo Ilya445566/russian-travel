@@ -11,9 +11,10 @@
     margin: 0;
     padding: 0;
 }
+
 @media screen and (max-width: 768px) {
     .intro__title {
-        max-width: 720px;
+        max-width: 100%;
    }
 }
 
