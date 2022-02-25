@@ -1,0 +1,36 @@
+.lead__title {
+    max-width: 720px;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0px auto 32px;
+    padding: 0;
+    border-radius: 0px;
+    font-family: "Inter", Arial, Helvetica;
+}
+
+@media screen and (max-width: 720px) {
+    .lead__title {
+        font-size: 40px;
+        line-height: 44px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .lead__title {
+        max-width: 95%;
+        font-size: 35px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__title {
+        max-width: 288px;
+        margin: 0 auto 16px;
+   }
+}
