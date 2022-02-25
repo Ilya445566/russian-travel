@@ -1,7 +1,9 @@
 .places__main-content {
     display: flex;
     justify-content: space-between;
+    margin-top: 48px;
 }
+
 @media screen and (max-width: 720px) {
     .places__main-content {
         flex-direction: column;
@@ -11,5 +13,6 @@
 @media screen and (max-width: 420px) {
     .places__main-content {
         max-width: 100%;
+        margin-top: 32px;
    }
 }
