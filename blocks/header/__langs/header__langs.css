@@ -1,12 +1,14 @@
 .header__langs {
     height: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
+    margin-top: 18px;
+    margin-left: auto;
+    margin-bottom: 6px;
 }
 
 @media screen and (max-width: 320px) {
     .header__langs {
         margin-top: 14px;
-        margin-left: 84px;
    }
 }
